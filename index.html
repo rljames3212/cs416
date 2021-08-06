@@ -1,0 +1,31 @@
+<html>
+<script src='https://d3js.org/d3.v5.min.js'></script>
+    <body onload="init()">
+    <svg width=1000 height=1000>
+    </svg>
+    <script>
+        async function init() {
+            var standings = await d3.csv("standings.csv");
+            var xScale = d3.scaleLinear().domain([0,32]).range([0,500]);
+            var yScale = d3.scaleLinear().domain([0,16]).range([500,0]);
+
+            var yAxisSel = d3.select("svg").append("g")
+                .attr("transform", "translate(100,100)")
+                .call(d3.axisLeft(yScale));
+            
+            var xAxisSel = d3.select("svg").append("g")
+                .attr("transform", "translate(100,600)")
+                .call(d3.axisBottom(xScale));
+
+            var rectsel = d3.select("svg").append("g")
+                .attr("transform", "translate(100,100)")
+                .selectAll("rect").data(standings)
+                .enter().append("rect")
+                    .attr("x", function(d,i) {return xScale(i);})
+                    .attr("y", function(d) {return 500 - yScale(d.W);})
+                    .attr("width", function() {return 500/32;})
+                    .attr("height", function(d,i) {return yScale(d.W);});
+        }
+    </script>
+    </body>
+</html>

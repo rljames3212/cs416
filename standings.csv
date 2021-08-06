@@ -1,0 +1,33 @@
+Conf,Tm,W,L,T,Position,Reason
+NFC,Green Bay Packers (1),13,3,0,North Champion,
+NFC,New Orleans Saints (2),12,4,0,South Champion,conference win percentage
+NFC,Seattle Seahawks (3),12,4,0,West Champion,
+NFC,Washington Football Team (4),7,9,0,East Champion,
+NFC,Tampa Bay Buccaneers (5),11,5,0,Wild Card #1,
+NFC,Los Angeles Rams (6),10,6,0,Wild Card #2,
+NFC,Chicago Bears (7),8,8,0,Wild Card #3,win percentage in common games
+NFC,Arizona Cardinals,8,8,0,,
+NFC,Minnesota Vikings,7,9,0,,
+NFC,San Francisco 49ers,6,10,0,,head-to-head record
+NFC,New York Giants,6,10,0,,division win percentage
+NFC,Dallas Cowboys,6,10,0,,
+NFC,Carolina Panthers,5,11,0,,head-to-head record
+NFC,Detroit Lions,5,11,0,,
+NFC,Philadelphia Eagles,4,11,1,,
+NFC,Atlanta Falcons,4,12,0,,
+AFC,Kansas City Chiefs (1),14,2,0,West Champion,
+AFC,Buffalo Bills (2),13,3,0,East Champion,
+AFC,Pittsburgh Steelers (3),12,4,0,North Champion,
+AFC,Tennessee Titans (4),11,5,0,South Champion,division win percentage
+AFC,Baltimore Ravens (5),11,5,0,Wild Card #1,head-to-head record
+AFC,Cleveland Browns (6),11,5,0,Wild Card #2,head-to-head record
+AFC,Indianapolis Colts (7),11,5,0,Wild Card #3,
+AFC,Miami Dolphins,10,6,0,,
+AFC,Las Vegas Raiders,8,8,0,,
+AFC,New England Patriots,7,9,0,,head-to-head record
+AFC,Los Angeles Chargers,7,9,0,,
+AFC,Denver Broncos,5,11,0,,
+AFC,Cincinnati Bengals,4,11,1,,
+AFC,Houston Texans,4,12,0,,
+AFC,New York Jets,2,14,0,,
+AFC,Jacksonville Jaguars,1,15,0,,
