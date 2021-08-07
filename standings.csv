@@ -1,33 +1,65 @@
-Conf,Tm,W,L,T,Position,Reason
-NFC,Green Bay Packers (1),13,3,0,North Champion,
-NFC,New Orleans Saints (2),12,4,0,South Champion,conference win percentage
-NFC,Seattle Seahawks (3),12,4,0,West Champion,
-NFC,Washington Football Team (4),7,9,0,East Champion,
-NFC,Tampa Bay Buccaneers (5),11,5,0,Wild Card #1,
-NFC,Los Angeles Rams (6),10,6,0,Wild Card #2,
-NFC,Chicago Bears (7),8,8,0,Wild Card #3,win percentage in common games
-NFC,Arizona Cardinals,8,8,0,,
-NFC,Minnesota Vikings,7,9,0,,
-NFC,San Francisco 49ers,6,10,0,,head-to-head record
-NFC,New York Giants,6,10,0,,division win percentage
-NFC,Dallas Cowboys,6,10,0,,
-NFC,Carolina Panthers,5,11,0,,head-to-head record
-NFC,Detroit Lions,5,11,0,,
-NFC,Philadelphia Eagles,4,11,1,,
-NFC,Atlanta Falcons,4,12,0,,
-AFC,Kansas City Chiefs (1),14,2,0,West Champion,
-AFC,Buffalo Bills (2),13,3,0,East Champion,
-AFC,Pittsburgh Steelers (3),12,4,0,North Champion,
-AFC,Tennessee Titans (4),11,5,0,South Champion,division win percentage
-AFC,Baltimore Ravens (5),11,5,0,Wild Card #1,head-to-head record
-AFC,Cleveland Browns (6),11,5,0,Wild Card #2,head-to-head record
-AFC,Indianapolis Colts (7),11,5,0,Wild Card #3,
-AFC,Miami Dolphins,10,6,0,,
-AFC,Las Vegas Raiders,8,8,0,,
-AFC,New England Patriots,7,9,0,,head-to-head record
-AFC,Los Angeles Chargers,7,9,0,,
-AFC,Denver Broncos,5,11,0,,
-AFC,Cincinnati Bengals,4,11,1,,
-AFC,Houston Texans,4,12,0,,
-AFC,New York Jets,2,14,0,,
-AFC,Jacksonville Jaguars,1,15,0,,
+Yr,Conf,Tm,W,L,T,Position,Reason
+2020,NFC,Green Bay Packers (1),13,3,0,North Champion,
+2020,NFC,New Orleans Saints (2),12,4,0,South Champion,conference win percentage
+2020,NFC,Seattle Seahawks (3),12,4,0,West Champion,
+2020,NFC,Washington Football Team (4),7,9,0,East Champion,
+2020,NFC,Tampa Bay Buccaneers (5),11,5,0,Wild Card #1,
+2020,NFC,Los Angeles Rams (6),10,6,0,Wild Card #2,
+2020,NFC,Chicago Bears (7),8,8,0,Wild Card #3,win percentage in common games
+2020,NFC,Arizona Cardinals,8,8,0,,
+2020,NFC,Minnesota Vikings,7,9,0,,
+2020,NFC,San Francisco 49ers,6,10,0,,head-to-head record
+2020,NFC,New York Giants,6,10,0,,division win percentage
+2020,NFC,Dallas Cowboys,6,10,0,,
+2020,NFC,Carolina Panthers,5,11,0,,head-to-head record
+2020,NFC,Detroit Lions,5,11,0,,
+2020,NFC,Philadelphia Eagles,4,11,1,,
+2020,NFC,Atlanta Falcons,4,12,0,,
+2020,AFC,Kansas City Chiefs (1),14,2,0,West Champion,
+2020,AFC,Buffalo Bills (2),13,3,0,East Champion,
+2020,AFC,Pittsburgh Steelers (3),12,4,0,North Champion,
+2020,AFC,Tennessee Titans (4),11,5,0,South Champion,division win percentage
+2020,AFC,Baltimore Ravens (5),11,5,0,Wild Card #1,head-to-head record
+2020,AFC,Cleveland Browns (6),11,5,0,Wild Card #2,head-to-head record
+2020,AFC,Indianapolis Colts (7),11,5,0,Wild Card #3,
+2020,AFC,Miami Dolphins,10,6,0,,
+2020,AFC,Las Vegas Raiders,8,8,0,,
+2020,AFC,New England Patriots,7,9,0,,head-to-head record
+2020,AFC,Los Angeles Chargers,7,9,0,,
+2020,AFC,Denver Broncos,5,11,0,,
+2020,AFC,Cincinnati Bengals,4,11,1,,
+2020,AFC,Houston Texans,4,12,0,,
+2020,AFC,New York Jets,2,14,0,,
+2020,AFC,Jacksonville Jaguars,1,15,0,,
+2019,NFC,Green Bay Packers (2),13,3,0,North Champion,conference win percentage
+2019,NFC,New Orleans Saints (3),13,3,0,South Champion,
+2019,NFC,Seattle Seahawks (5),11,5,0,Wild Card #1,
+2019,NFC,Washington Redskins,3,13,0,,
+2019,NFC,Tampa Bay Buccaneers,7,9,0,,
+2019,NFC,Los Angeles Rams,9,7,0,,
+2019,NFC,Chicago Bears,8,8,0,,head-to-head record
+2019,NFC,Arizona Cardinals,5,10,1,,
+2019,NFC,Minnesota Vikings (6),10,6,0,Wild Card #2,
+2019,NFC,San Francisco 49ers (1),13,3,0,West Champion,head-to-head record
+2019,NFC,New York Giants,4,12,0,,
+2019,NFC,Dallas Cowboys,8,8,0,,
+2019,NFC,Carolina Panthers,5,11,0,,
+2019,NFC,Detroit Lions,3,12,1,,
+2019,NFC,Philadelphia Eagles (4),9,7,0,East Champion,
+2019,NFC,Atlanta Falcons,7,9,0,,division win percentage
+2019,AFC,Kansas City Chiefs (2),12,4,0,West Champion,head-to-head record
+2019,AFC,Buffalo Bills (5),10,6,0,Wild Card #1,
+2019,AFC,Pittsburgh Steelers,8,8,0,,
+2019,AFC,Tennessee Titans (6),9,7,0,Wild Card #2,
+2019,AFC,Baltimore Ravens (1),14,2,0,North Champion,
+2019,AFC,Cleveland Browns,6,10,0,,
+2019,AFC,Indianapolis Colts,7,9,0,,conference win percentage
+2019,AFC,Miami Dolphins,5,11,0,,
+2019,AFC,Oakland Raiders,7,9,0,,head-to-head record
+2019,AFC,New England Patriots (3),12,4,0,East Champion,
+2019,AFC,Los Angeles Chargers,5,11,0,,head-to-head record
+2019,AFC,Denver Broncos,7,9,0,,conference win percentage
+2019,AFC,Cincinnati Bengals,2,14,0,,
+2019,AFC,Houston Texans (4),10,6,0,South Champion,
+2019,AFC,New York Jets,7,9,0,,
+2019,AFC,Jacksonville Jaguars,6,10,0,,win percentage in common games
