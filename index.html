@@ -21,9 +21,10 @@
         <script>
             async function init() {
                 var standings = await d3.csv("standings.csv");
-                var sliderVal = d3.select("#yearSlider").attr("value");
+                var slider = d3.select("#yearSlider");
+
                 var filteredStandings = standings.filter(function(d) {
-                    if (d.Year == sliderVal) {
+                    if (d.Year == slider.attr("value")) {
                         return d;
                     }
                 });
@@ -58,7 +59,7 @@
                 var rectsel = d3.select("svg").append("g")
                     .attr("id", "rectsel")
                     .attr("transform", "translate(100,100)")
-                    .selectAll("rect").data(standings)
+                    .selectAll("rect").data(filteredStandings)
                     .enter().append("rect")
                         .attr("x", function(d,i) {return xScale(i);})
                         .attr("y", function(d) {return 500;})
@@ -90,6 +91,7 @@
                     .style("font-size", "16px")
                     .style("text-decoration", "underline")
                     .text("Wins by each team in 2020 NFL season");
+                
             }
         </script>
     </body>
