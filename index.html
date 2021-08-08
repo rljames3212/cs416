@@ -21,10 +21,8 @@
         <script>
             async function init() {
                 var standings = await d3.csv("standings.csv");
-                console.log(standings);
                 var sliderVal = d3.select("#yearSlider").attr("value");
                 var filteredStandings = standings.filter(function(d) {
-                    console.log(d);
                     if (d.Year == sliderVal) {
                         return d;
                     }
